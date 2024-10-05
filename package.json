@@ -1,0 +1,27 @@
+{
+  "name": "paramstore-env-loader",
+  "version": "1.0.0",
+  "description": "This module provides a streamlined way to fetch and load environment variables from AWS SSM Parameter Store based on a given path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrateekPheonix/paramstore-env-loader.git"
+  },
+  "keywords": [
+    "aws",
+    "parameter",
+    "store"
+  ],
+  "author": "Prateek Niket",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrateekPheonix/paramstore-env-loader/issues"
+  },
+  "homepage": "https://github.com/PrateekPheonix/paramstore-env-loader#readme",
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.665.0"
+  }
+}
